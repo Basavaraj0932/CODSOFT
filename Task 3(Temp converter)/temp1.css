@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  .converter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  #temperature, #fromUnit, #toUnit {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #toUnit, #fromUnit {
+    width: 100px;
+  }
+  
+  #result {
+    font-weight: bold;
+  }
+  *{
+    background-color: burlywood;
+  }
